@@ -1,0 +1,156 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src:  url('../../fonts/icomoon.eot?caut53');
+  src:  url('../../fonts/icomoon.eot?caut53#iefix') format('embedded-opentype'),
+    url('../../fonts/icomoon.ttf?caut53') format('truetype'),
+    url('../../fonts/icomoon.woff?caut53') format('woff'),
+    url('../../fonts/icomoon.svg?caut53#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'FontAwesome' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-More:before {
+  content: "\e912";
+}
+.icon-Up-and-down:before {
+  content: "\e925";
+}
+.icon-all:before {
+  content: "\e926";
+}
+.icon-right:before {
+  content: "\e927";
+}
+.icon-Sundry-charges:before {
+  content: "\e928";
+}
+.icon-Surcharge:before {
+  content: "\e929";
+}
+.icon-Transportation-cost:before {
+  content: "\e92a";
+}
+.icon-Uncheck:before {
+  content: "\e924";
+}
+.icon-Check:before {
+  content: "\e923";
+}
+.icon-drop-down:before {
+  content: "\e922";
+}
+.icon-download:before {
+  content: "\e91c";
+}
+.icon-Supplier-airplane:before {
+  content: "\e91d";
+}
+.icon-Supplier-all:before {
+  content: "\e91e";
+}
+.icon-Supplier-metro:before {
+  content: "\e91f";
+}
+.icon-Supplier-ship:before {
+  content: "\e920";
+}
+.icon-Supplier-truck:before {
+  content: "\e921";
+}
+.icon-organization-Close:before {
+  content: "\e918";
+}
+.icon-organization-Open:before {
+  content: "\e919";
+}
+.icon-usergroup-Open:before {
+  content: "\e91a";
+}
+.icon-usergroup-Close:before {
+  content: "\e91b";
+}
+.icon-down:before {
+  content: "\e913";
+}
+.icon-up:before {
+  content: "\e914";
+}
+.icon-usergroup:before {
+  content: "\e915";
+}
+.icon-user:before {
+  content: "\e916";
+}
+.icon-organization:before {
+  content: "\e917";
+}
+.icon-lock:before {
+  content: "\e911";
+}
+.icon-remov:before {
+  content: "\e90e";
+}
+.icon-Error:before {
+  content: "\e900";
+}
+.icon-add:before {
+  content: "\e901";
+}
+.icon-Close:before {
+  content: "\e902";
+}
+.icon-Close-Popup:before {
+  content: "\e903";
+}
+.icon-delete:before {
+  content: "\e904";
+}
+.icon-Info:before {
+  content: "\e905";
+}
+.icon-inoperable:before {
+  content: "\e90c";
+}
+.icon-Open:before {
+  content: "\e90d";
+}
+.icon-Success:before {
+  content: "\e90f";
+}
+.icon-Warning:before {
+  content: "\e910";
+}
+.icon-Customer-service:before {
+  content: "\e906";
+}
+.icon-Data-management:before {
+  content: "\e907";
+}
+.icon-operation:before {
+  content: "\e908";
+}
+.icon-System-management:before {
+  content: "\e909";
+}
+.icon-The-dashboard:before {
+  content: "\e90a";
+}
+.icon-The-financial-management:before {
+  content: "\e90b";
+}

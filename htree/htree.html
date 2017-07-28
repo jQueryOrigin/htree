@@ -1,0 +1,36 @@
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>jQuery htree组件</title>
+    <link rel="stylesheet" href="../css/lib/font-awesome.css"/>
+    <link rel="stylesheet" href="../css/lib/fonts-hna.css"/>
+    <link rel="stylesheet" href="./htree.css"/>
+    <script type="text/javascript" src="../js/lib/jquery.js"></script>
+    <script type="text/javascript" src="./htree.js"></script>  
+    <style type="text/css">
+        body{
+            text-align:center;
+            padding:20px;
+        }
+        .container{
+            border: 1px solid #ccc;
+            margin:0px auto;
+            text-align:left;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <ul id="htree" class="htree">
+            
+        </ul>
+    </div>  
+<script type="text/javascript">
+    var data = {"errorCode":0,"msg":"","data":{"id":1,"name":"运营系统","url":"#/","parentId":0,"ordinal":1,"selected":true,"children":[{"id":10,"name":"系统管理","url":"#/","parentId":1,"ordinal":1,"selected":true,"children":[{"id":100,"name":"组织管理","url":"#/organization","parentId":10,"ordinal":1,"selected":false,"children":[]},{"id":101,"name":"用户组管理","url":"#/usergroup","parentId":10,"ordinal":2,"selected":true,"children":[]},{"id":102,"name":"用户管理","url":"#/user","parentId":10,"ordinal":3,"selected":true,"children":[]},{"id":103,"name":"角色管理","url":"#/role","parentId":10,"ordinal":4,"selected":true,"children":[]}]},{"id":11,"name":"主数据管理","url":"#/","parentId":1,"ordinal":2,"selected":false,"children":[{"id":110,"name":"国家","url":"#/country","parentId":11,"ordinal":1,"selected":false,"children":[]},{"id":111,"name":"地区","url":"#/area","parentId":11,"ordinal":2,"selected":false,"children":[]},{"id":112,"name":"承运站点","url":"#/","parentId":11,"ordinal":3,"selected":false,"children":[{"id":1120,"name":"机场","url":"#/stationAirport","parentId":112,"ordinal":1,"selected":false,"children":[]}]},{"id":113,"name":"承运公司","url":"#/","parentId":11,"ordinal":4,"selected":false,"children":[{"id":1130,"name":"航空公司","url":"#/carrierAirline","parentId":113,"ordinal":1,"selected":false,"children":[]}]},{"id":114,"name":"承运工具","url":"#/","parentId":11,"ordinal":5,"selected":false,"children":[{"id":1140,"name":"飞机型号","url":"#/transportAirplane","parentId":114,"ordinal":1,"selected":false,"children":[]}]},{"id":115,"name":"币种","url":"#/currency","parentId":11,"ordinal":6,"selected":false,"children":[]},{"id":116,"name":"汇率","url":"#/rate","parentId":11,"ordinal":7,"selected":false,"children":[]},{"id":117,"name":"费用类型","url":"#/cost","parentId":11,"ordinal":8,"selected":false,"children":[]},{"id":118,"name":"结算方式","url":"#/account","parentId":11,"ordinal":9,"selected":false,"children":[]},{"id":119,"name":"供应商","url":"#/supplier","parentId":11,"ordinal":10,"selected":false,"children":[]},{"id":120,"name":"分区","url":"#/region","parentId":11,"ordinal":11,"selected":false,"children":[]},{"id":121,"name":"重量段","url":"#/weight","parentId":11,"ordinal":12,"selected":false,"children":[]},{"id":122,"name":"服务","url":"#/service","parentId":11,"ordinal":13,"selected":false,"children":[]},{"id":123,"name":"产品","url":"#/product","parentId":11,"ordinal":14,"selected":false,"children":[]},{"id":124,"name":"价格","url":"#/price","parentId":11,"ordinal":15,"selected":false,"children":[]}]},{"id":13,"name":"财务管理","url":"#/","parentId":1,"ordinal":3,"selected":false,"children":[{"id":130,"name":"账单管理","url":"#/billing","parentId":13,"ordinal":1,"selected":false,"children":[]}]},{"id":15,"name":"驾驶舱","url":"#/","parentId":1,"ordinal":4,"selected":false,"children":[{"id":150,"name":"销售统计","url":"#/sales","parentId":15,"ordinal":1,"selected":false,"children":[]},{"id":151,"name":"财务分析","url":"#/finance","parentId":15,"ordinal":2,"selected":false,"children":[]},{"id":152,"name":"操作监管","url":"#/operating","parentId":15,"ordinal":3,"selected":false,"children":[]},{"id":153,"name":"运营监控","url":"#/monitoring","parentId":15,"ordinal":4,"selected":false,"children":[]},{"id":154,"name":"客服监管","url":"#/customer","parentId":15,"ordinal":5,"selected":false,"children":[]},{"id":155,"name":"服务监管","url":"#/serviceregul","parentId":15,"ordinal":6,"selected":false,"children":[]}]},{"id":17,"name":"客户管理","url":"#/","parentId":1,"ordinal":5,"selected":false,"children":[]},{"id":18,"name":"客服","url":"#/","parentId":1,"ordinal":6,"selected":false,"children":[{"id":180,"name":"问题处理","url":"#/problem","parentId":18,"ordinal":1,"selected":false,"children":[]},{"id":181,"name":"订单管理","url":"#/orders","parentId":18,"ordinal":2,"selected":false,"children":[]}]}]}};
+
+    var s = $("#htree").htree(data.data.children, {});
+    s.upcheked();
+    
+</script>
+</body>
+</html>

@@ -1,0 +1,130 @@
+/** css reset*/
+/*三奘平台*/
+article,
+aside,
+footer,
+header,
+nav,
+section {
+    display: block;
+}
+
+body,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form {
+    margin: 0;
+    color: #555;
+}
+
+ul,
+ol {
+    padding: 0;
+    list-style-position: inside;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #01AAED;
+}
+a:hover,a:active{
+    text-decoration: none;
+}
+
+input[type="button"],
+button {
+    cursor: pointer;
+}
+
+input,
+button,
+textarea {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    resize: none;
+    color: #555;
+}
+
+body {
+    font-size: 14px;
+    color: #555;
+    background-color: #f2f2f2;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 400;
+}
+
+input:focus,
+a:focus,
+button:focus {
+    outline: 0px;
+    text-decoration: none;
+}
+
+img{
+    border: 0px;
+}
+
+.htree{
+    padding: 0px 10px;
+    font-size: 13px;
+    background: url(../images/tree-bg.png) 0px 0px repeat;
+}
+.htree p{
+    height:49px;
+    line-height: 49px;
+    display: inline-block;
+}
+.htree li ul {
+    margin: 0px 0px 0px 5px;
+    padding: 0 0 0 20px;
+    border-left:1px dashed #e7e7e7;
+    display: none;
+}
+.htree li.tree-li-hide{
+    display: none;
+}
+.htree .cursor-pointer{
+    cursor: pointer;
+}
+.htree .icon-Uncheck{
+    vertical-align: middle;
+    margin-right: 5px;
+    font-size: 17px;
+    color: #A9B2BD;
+    background: #fff;
+}
+.htree .icon-Close{
+    vertical-align: middle;
+    margin-right: 5px;
+    font-size: 17px;
+    color: #3BAFDA;
+    background: #BAE7F7;
+}
+.htree .icon-Open{
+    vertical-align: middle;
+    margin-right: 5px;
+    font-size: 17px;
+    color: #3BAFDA;
+    background: #BAE7F7;
+}
+.htree .icon-inoperable{
+    color: #3BAFDA;
+}
+.htree .icon-Check{
+    color: #3BAFDA;
+}
